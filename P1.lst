@@ -15,3 +15,14 @@ SQL> SAVE file.lst
 Created file .lst
 SQL> GET file.lst
   1* ADIOS
+
+
+SQL> DESCRIBE PROFESOR;
+ Name					   Null?    Type
+ ----------------------------------------- 
+ DNI					   NOT NULL NUMBER(8)
+ P						            VARCHAR2(60)
+ CAR						          NUMBER(3)
+ CAT						          VARCHAR2(5)
+
+SQ
