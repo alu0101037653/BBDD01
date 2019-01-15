@@ -25,4 +25,27 @@ SQL> DESCRIBE PROFESOR;
  CAR						          NUMBER(3)
  CAT						          VARCHAR2(5)
 
-SQ
+
+SQL> HELP
+
+ HELP
+ ----
+
+ Accesses this command line help system. Enter HELP INDEX or ? INDEX
+ for a list of topics.
+
+ You can view SQL*Plus resources at
+     http://www.oracle.com/technology/documentation/
+
+ ******************************************************************************
+ **  Top 12.2 features:                                                      **
+ **    - Fast retrieval of data as CSV for use in applications like          **
+ **      SQL*Loader. Use SQLPLUS -M "CSV ON" or SET MARKUP CSV ON            **
+ **    - Improved defaults and optimizations for reports. Use SQLPLUS -F     **
+ **    - Command recall. Use SET HISTORY ON and HISTORY to list previous     **
+ **      commands.                                                           **
+ ******************************************************************************
+
+ HELP|? [topic]
+ 
+SQL> 
