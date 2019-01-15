@@ -1,0 +1,17 @@
+SQL> LIST
+SP2-0223: No lines in SQL buffer.
+SQL> INPUT HOLA
+SQL> LIST
+  1* HOLA
+SQL> APPEND QUE TAL
+  1* HOLAQUE TAL
+SQL> CHANGE QUE TAL
+  2* HOLAQ
+SQL> DEL
+SQL> LIST
+SP2-0223: No lines in SQL buffer. 
+SQL> INPUT ADIOS
+SQL> SAVE file.lst
+Created file .lst
+SQL> GET file.lst
+  1* ADIOS
