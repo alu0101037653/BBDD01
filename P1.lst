@@ -116,3 +116,22 @@ SQL> PRINT areas;
 AREAS
 --------------------------------------------------------------------------------
 
+
+SQL> DECLARE
+  2  VALOR_NEGATIVO EXCEPTION;
+  3  VALOR NUMBER;
+  4  BEGIN
+  5  VALOR := -1;
+  6  IF VALOR < 0 THEN
+  7  RAISE VALOR_NEGATIVO;
+  8  END IF;
+  9  EXCEPTION
+ 10  WHEN VALOR_NEGATIVO THEN
+ 11  dbms_output.put_line('El valor no puede ser negativo');
+ 12  END;
+ 13  /
+El valor no puede ser negativo
+
+PL/SQL procedure successfully completed.
+
+
