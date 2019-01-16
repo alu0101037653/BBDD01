@@ -63,3 +63,45 @@ HOLA
 
 SQL> PROMPT HOLA
 HOLA
+
+
+SQL> TTI HOLA
+SQL> TTI
+ttitle ON and is the following 4 characters:
+HOLA
+SQL> BTI ADIOS
+SQL> BTI
+btitle ON and is the following 5 characters:
+ADIOS
+
+SQL> HOST pwd
+/home/siga01.stic.ull.es/fd/alu0101037653
+
+
+SQL> SHOW USER
+USER is "ALU0101037653"
+
+SQL> INPUT HOLA
+SQL> LIST
+  1* HOLA
+SQL> APPEND  QUE TAL
+  1* HOLA QUE TAL
+SQL> CHANGE /QUE TAL/ADIOS
+  1* HOLA ADIOS
+SQL> DEL
+SQL> LIST
+SP2-0223: No lines in SQL buffer.
+SQL> INPUT ADIOS
+SQL> SAVE arch.lst
+Created file arch.lst
+SQL> GET arch.lst
+  1* ADIOS
+SQL> 
+
+
+
+SQL> DISCONNECT
+Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+SQL> EXIT
+alu0101037653@c2:~$ 
+
