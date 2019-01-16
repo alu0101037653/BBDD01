@@ -105,3 +105,14 @@ Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64
 SQL> EXIT
 alu0101037653@c2:~$ 
 
+
+
+
+
+
+SQL> VARIABLE areas VARCHAR2(15);
+SQL> PRINT areas;
+
+AREAS
+--------------------------------------------------------------------------------
+
