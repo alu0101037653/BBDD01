@@ -1,3 +1,28 @@
+SQL> CREATE PROCEDURE CONTAR(DIA NUMBER) IS
+  2  MES NUMBER;
+  3  BEGIN
+  4  LOOP
+  5  MES := DIA * 31;
+  6  EXIT WHEN MES > 400;
+  7  END LOOP;
+  8  DBMS_OUTPUT.PUT_LINE(MES);
+  9* END;
+SQL> /
+
+Procedure created.
+
+SQL> CALL CONTAR(13);
+403
+
+Call completed.
+
+SQL> 
+
+
+
+
+
+
 
 SQL> CREATE PROCEDURE PAL(X NUMBER) IS
   2  R VARCHAR2(100);
