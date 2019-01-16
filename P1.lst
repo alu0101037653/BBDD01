@@ -1,8 +1,5 @@
 
-SQL> EDIT
-Wrote file afiedt.buf
-
-  1  DECLARE
+SQL> DECLARE
   2  AR NUMBER;
   3  BEGIN
   4  SELECT COUNT(CAR) INTO AR
