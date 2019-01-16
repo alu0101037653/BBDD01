@@ -1,3 +1,31 @@
+
+SQL> DECLARE
+  2  SUBTYPE FECHA IS DATE NOT NULL;
+  3  PFDATE FECHA := SYSDATE;
+  4  BEGIN
+  5  DBMS_OUTPUT.PUT_LINE(PFDATE);
+  6  END;
+  7  /
+16-JAN-19
+
+PL/SQL procedure successfully completed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 SQL> LIST
 SP2-0223: No lines in SQL buffer.
 SQL> INPUT HOLA
