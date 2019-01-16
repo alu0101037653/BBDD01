@@ -38,6 +38,12 @@ SQL> HELP
      http://www.oracle.com/technology/documentation/
 
  ******************************************************************************
+ 
+ 
+ SQL> DEFINE PELICULA = "BAYWATCH"
+SQL> DEFINE PELICULA
+DEFINE PELICULA        = "BAYWATCH" (CHAR)
+
  **  Top 12.2 features:                                                      **
  **    - Fast retrieval of data as CSV for use in applications like          **
  **      SQL*Loader. Use SQLPLUS -M "CSV ON" or SET MARKUP CSV ON            **
