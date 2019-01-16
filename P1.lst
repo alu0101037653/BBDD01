@@ -1,3 +1,29 @@
+
+SQL> EDIT
+Wrote file afiedt.buf
+
+  1  DECLARE
+  2  AR NUMBER;
+  3  BEGIN
+  4  SELECT COUNT(CAR) INTO AR
+  5  FROM AREA;
+  6  DBMS_OUTPUT.PUT_LINE(AR);
+  7  END
+  8* ;
+SQL> /
+8
+
+PL/SQL procedure successfully completed.
+
+
+
+
+
+
+
+
+
+
 SQL> VARIABLE contador VARCHAR2(2);
 SQL> SELECT COUNT(CD) INTO :contador
   2  FROM DEPARTAMENTO;
