@@ -1,4 +1,38 @@
 
+SQL> CREATE PROCEDURE PAL(X NUMBER) IS
+  2  R VARCHAR2(100);
+  3  BEGIN
+  4  CASE
+  5  WHEN X=1 THEN R:= 'HOLA';
+  6  WHEN X=2 THEN R:= 'QUE TAL';
+  7  ELSE R:= 'ADIOS';
+  8  END CASE;
+  9  DBMS_OUTPUT.PUT_LINE(R);
+ 10* END;
+SQL> /
+
+Procedure created.
+
+SQL> CALL PAL(1);
+HOLA
+
+Call completed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 SQL> CREATE PROCEDURE SOL(X NUMBER) IS
   2  R VARCHAR2(100);
   3  BEGIN
